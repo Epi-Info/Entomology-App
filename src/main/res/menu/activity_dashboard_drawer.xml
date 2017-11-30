@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/dash_charts">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_container_types"
+                    android:icon="@drawable/ic_chart_pie"
+                    android:title="@string/dash_container_types" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/dash_maps">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_collection_map"
+                    android:icon="@drawable/ic_google_maps"
+                    android:title="@string/dash_collection_map" />
+                <item
+                    android:id="@+id/nav_trapping_map"
+                    android:icon="@drawable/ic_google_maps"
+                    android:title="@string/dash_trapping_map" />
+                <item
+                    android:id="@+id/nav_infestation_map"
+                    android:icon="@drawable/ic_google_maps"
+                    android:title="@string/dash_inf_map" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/dash_indices">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_container_index"
+                    android:icon="@drawable/ic_chart_donut"
+                    android:title="@string/dash_container_index" />
+                <item
+                    android:id="@+id/nav_house_index"
+                    android:icon="@drawable/ic_chart_donut"
+                    android:title="@string/dash_house_index" />
+                <item
+                    android:id="@+id/nav_breteau_index"
+                    android:icon="@drawable/ic_chart_donut"
+                    android:title="@string/dash_breteau_index" />
+                <item
+                    android:id="@+id/nav_pupae_index"
+                    android:icon="@drawable/ic_chart_donut"
+                    android:title="@string/dash_pupae_index" />
+                <item
+                    android:id="@+id/nav_pupae_per_container"
+                    android:icon="@drawable/ic_chart_donut"
+                    android:title="@string/dash_ppc" />
+                <item
+                    android:id="@+id/nav_pupae_per_person"
+                    android:icon="@drawable/ic_chart_donut"
+                    android:title="@string/dash_ppp" />
+                <item
+                    android:id="@+id/nav_ovitrap_index"
+                    android:icon="@drawable/ic_chart_donut"
+                    android:title="@string/dash_ovitrap_index" />
+                <item
+                    android:id="@+id/nav_ovitrap_density"
+                    android:icon="@drawable/ic_chart_donut"
+                    android:title="@string/dash_ovitrap_density" />
+                <item
+                    android:id="@+id/nav_gravid_index"
+                    android:icon="@drawable/ic_chart_donut"
+                    android:title="@string/dash_gravid_index" />
+                <item
+                    android:id="@+id/nav_gravid_density"
+                    android:icon="@drawable/ic_chart_donut"
+                    android:title="@string/dash_gravid_density" />
+            </group>
+        </menu>
+    </item>
+</menu>

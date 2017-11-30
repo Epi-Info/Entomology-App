@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/start_date"
+        android:padding="5dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="10dp">
+        <EditText
+            android:id="@+id/txtStartDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:layout_marginRight="10dp"
+            android:focusable="false"
+            android:enabled="false"/>
+        <ImageButton
+            android:id="@+id/btnStartDate"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/btn_calendar"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/end_date"
+        android:padding="5dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="10dp">
+        <EditText
+            android:id="@+id/txtEndDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:layout_marginRight="10dp"
+            android:focusable="false"
+            android:enabled="false"/>
+        <ImageButton
+            android:id="@+id/btnEndDate"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/btn_calendar"/>
+    </LinearLayout>
+</LinearLayout>

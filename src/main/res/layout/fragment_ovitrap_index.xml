@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gov.cdc.epiinfo_ento.analysis.OvitrapIndexFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/rate_content"
+            android:layout_width="350dp"
+            android:layout_height="match_parent" android:layout_gravity="center_horizontal" android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

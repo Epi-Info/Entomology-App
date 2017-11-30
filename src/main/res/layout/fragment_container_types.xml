@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gov.cdc.epiinfo_ento.analysis.ContainerTypesFragment">
+
+    <com.androidplot.pie.PieChart
+        android:id="@+id/plot"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent" android:layout_gravity="center" />
+
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    >
+    <ImageView
+        android:src="@drawable/mosquito"
+        android:adjustViewBounds="true" android:layout_gravity="center" android:layout_marginBottom="40dp"
+        android:contentDescription="Epi Info home screen"  android:layout_marginTop="30dp"
+        android:layout_height="0dp" android:layout_width="wrap_content" android:layout_weight="0.3"/>
+    <Button
+        android:id="@+id/btnCollectData"
+        android:contentDescription="Click here to collect data"
+        android:layout_height="66dp" android:layout_width="230dp" android:layout_margin="10dp"
+        android:background="@drawable/btn_data_collection_land"
+        />
+    <Button
+        android:id="@+id/btnAnalyze"
+        android:contentDescription="Click here to analyze collected data"
+        android:layout_height="66dp" android:layout_width="230dp" android:layout_margin="10dp"
+        android:background="@drawable/btn_data_analysis_land"
+        />
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"/>
+</LinearLayout>
